@@ -1,0 +1,59 @@
+.post-details-wrapper {
+    .form-wrapper {
+      padding: 0 24px;
+  
+      mat-form-field {
+        width: 100%;
+      }
+    }
+  input[type="checkbox"]{
+     height: 18px;
+     width: 18px; 
+  }
+
+  td{
+      border-bottom: #ccc 1px solid;
+      padding: 5px;
+      font-size: 15px;
+  }
+  th {
+    border-bottom: #ccc 1px solid;
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  table{
+      border: #ccc 1px solid;
+      margin: 15px;
+      border-radius: 3px;
+  }
+  button{
+    margin: 10px;
+    background: #03314b;
+    color: white;
+  }
+  .cancel{
+      background-color: rgb(196, 86, 86);
+  }
+    .accCol{
+      float: left;
+      width: 25%;
+    }
+    .mat-elevation-z1{
+      width: 90%;
+    }
+    .actions-wrapper {
+      display: flex;
+      width: 100%;
+  
+      .actions {
+       margin-top: 10px;
+       margin-left: 40%;
+  
+        > *:first-child {
+          margin-right: 8px;
+        }
+      }
+    }
+  }
+  
